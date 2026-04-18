@@ -46,4 +46,4 @@ USER nestjs
 
 EXPOSE 3000
 
-CMD find dist -maxdepth 2 && node dist/main.js
+CMD ["node", "dist/src/main.js"]
